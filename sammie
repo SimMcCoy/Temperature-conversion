@@ -36,19 +36,6 @@
             text-align: center;
             border-radius: 4px;
         }
-        
-        .output label{
-            color: azure;
-            background-color: rgb(144, 170, 26);
-            border-radius: 2px;
-            font-size: small;
-        }
-        .output input{
-            border-color: unset;
-            border-radius: 0%;
-            border-style: none;
-        }
-
     </style>
     
 </head>
