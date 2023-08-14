@@ -35,19 +35,19 @@
 			padding: 50px 20px;
 		}
 
-		.col {
+		.val {
 			flex-basis: 32%;
 			text-align: center;
 		}
 
-		.col label {
+		.val label {
 			font-size: 15px;
 			font-weight: 500;
 			margin-bottom: 10px;
 			color: #fff;
 		}
 
-		.col input {
+		.val input {
 			width: 150px;
 			height: 30px;
 			background: white;
