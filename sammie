@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Project</title>
+
+    <style>
+        *{
+            margin: 0%;
+            padding: 3px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .container{
+            text-align: center;
+            opacity: 2;
+            width: 1000px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-size: 25;
+            border-radius: 10px;
+        }
+
+        .converter{
+            justify-self: center;
+            display:inline-flex;
+            text-align: center;
+            border-radius: 10px;
+            padding: 20px 20px;
+        }
+        .val input{
+            width: 100px;
+            height: 20px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        
+        .output label{
+            color: azure;
+            background-color: rgb(144, 170, 26);
+            border-radius: 2px;
+            font-size: small;
+        }
+        .output input{
+            border-color: unset;
+            border-radius: 0%;
+            border-style: none;
+        }
+
+    </style>
+    
+</head>
+
+<body>
+   
+
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="converter">
+            <div class="val">
+                <label>Temperature</label><br>
+                <input type="number" id="inputval">
+            </div>
+
+            <div class="val">
+                <label>From</label><br>
+                <tr><select class="temp1">
+                    <option>Celsius</option>
+                    <option>Fahrenheit</option>
+                    <option>Kelvin</option>
+                </select></tr>
+            </div>
+
+            <div class="val">
+                <label>To</label><br>
+                <tr><select class="temp2">
+                    <option>-select-</option>
+                    <option>Celsius</option>
+                    <option>Fahrenheit</option>
+                    <option>Kelvin</option>
+                </select></tr>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <script>
+            let 
+        </script>
+    </div>
+</body>
+
+</html>
